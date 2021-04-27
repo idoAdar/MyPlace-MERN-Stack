@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+.warrper {
+  margin: 0 auto;
+  width: 45rem;
+  height: 100vh;
+  background-color: #1a1a1a;
+  box-shadow: 2px 3px 12px #494848;
+  overflow-y: auto;
+}
+
+/* General */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 8rem 0 0 0;
+}
+
+@media (max-width: 500px) {
+  .warrper {
+    height: 200vh;
+  }
+}

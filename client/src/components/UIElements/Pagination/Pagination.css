@@ -1,0 +1,25 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  width: 32rem;
+  margin: 0 auto;
+}
+
+.pagination li {
+  margin: 1px;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ccc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  background-color: white;
+}
+
+.pagination a {
+  color: black;
+  text-decoration: none;
+}

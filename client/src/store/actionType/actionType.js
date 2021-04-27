@@ -1,0 +1,11 @@
+export const GET_USERS = 'GET_USERS';
+export const GET_USER_PLACES = 'GET_USER_PLACES';
+export const DELETE_USER_PLACE = 'DELETE_USER_PLACE';
+export const REGISTER_USER = 'REGISTER_USER';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+export const CLEAR_ERROR = 'CLEAR_ERROR';
+export const CLEAR = 'CLEAR';
+export const LOADER = 'LOADER';

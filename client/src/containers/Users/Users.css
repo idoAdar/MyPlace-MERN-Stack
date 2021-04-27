@@ -1,0 +1,24 @@
+.title {
+  margin: 0 auto;
+  width: 32rem;
+  color: white;
+}
+
+.title i {
+  color: #4cbd35;
+}
+
+.users-list {
+  list-style: none;
+}
+
+.username {
+  margin: 5px 0;
+  font-weight: 100;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}

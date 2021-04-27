@@ -1,0 +1,11 @@
+.no-places-note {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .no-places-note {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+}

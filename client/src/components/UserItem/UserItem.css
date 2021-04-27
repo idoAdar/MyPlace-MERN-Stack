@@ -1,0 +1,56 @@
+.user-card {
+  width: 32rem;
+  height: 12vh;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background-color: #ccc;
+  border-radius: 15px;
+  margin: 1rem auto;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+}
+
+.user-card img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.user-card div:nth-of-type(2) {
+  padding-left: 1rem;
+  border-left: 1px solid #adacac;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-card h3,
+.user-card small,
+.user-card p {
+  text-decoration: none;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+@media (max-width: 500px) {
+  .user-card {
+    width: 32rem;
+    height: 16vh;
+  }
+
+  .user-card img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .user-card h3,
+  .user-card small,
+  .user-card p {
+  font-size: 1.5rem;
+}
+}

@@ -1,0 +1,12 @@
+.err {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+@media (max-width: 500px) {
+    .err {
+        font-size: 24px;
+    }
+}
